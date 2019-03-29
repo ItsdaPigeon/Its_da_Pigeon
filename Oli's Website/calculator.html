@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<html>
+<body class="calc">
+<p>Click the button to calculate x.</p>
+<button onclick="myFunction()">Try it</button>
+<br/>
+<br/>Enter first number:
+<input type="number" id="number1" name="text1">Enter second number:
+<input type="number" id="number2" name="text2">
+<p id="demo"></p>
+<script>
+  function myFunction() {
+    var y = document.getElementById("number1").value;
+    var z = document.getElementById("number2").value;
+    var x = +y + +z;
+    document.getElementById("demo").innerHTML = x;
+  }
+</script>
