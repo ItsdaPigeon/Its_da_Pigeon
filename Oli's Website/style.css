@@ -354,3 +354,12 @@ iframe:focus {
 iframe[seamless] {
   display: block;
 }
+
+.indent-20{
+  margin: 10px;
+}
+
+.overlay h1 {
+  color: #40E0D0;
+  text-align: center;
+}
